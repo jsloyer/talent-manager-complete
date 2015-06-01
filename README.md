@@ -1,4 +1,19 @@
-# Persona Fusion aka Talent Hotspot
+# Persona Fusion aka Talent Manager
+
+To Use
+================================================================================
+
+```
+cf create-service cloudantNoSQLDB Shared talant-manager-db
+cf create-service personality_insights"IBM Watson Personality Insights Monthly Plan" personality-insights-talent-manager
+cf push myappname
+```
+
+Replace myapp name with the name of your app (ex. talent-manager)
+
+or click the button below
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
 
 # About
 ## Meet Ivy
@@ -42,5 +57,3 @@ User Modeling API
 * [Install Java 1.7 JDK](https://ibm.biz/hackathon-java).
 * [Install the cf command-line tool](https://ibm.biz/hackathon-cf).
 * [Sign up for an IBM Bluemix account](http://bluemix.net).
-
-
