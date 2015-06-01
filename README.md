@@ -1,5 +1,10 @@
 # Persona Fusion aka Talent Manager
 
+
+Deprecated. Please use github.com/IBM-Bluemix/talent-manager
+================================================================================
+
+
 To Use
 ================================================================================
 
